@@ -38,6 +38,7 @@ namespace LAB2
             Console.WriteLine($"Char: {f}");
             Console.WriteLine($"String: {str}");
             Console.WriteLine($"Object: {obj}");
-
+            // LERA SOSI
         }
     }
+}
