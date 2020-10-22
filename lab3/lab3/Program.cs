@@ -124,6 +124,8 @@ namespace lab3
                 Console.Write(lastNames[i] + " ");
             }
 
+            Console.WriteLine();
+
             int min, max;
 
             Console.Write("range (min): ");
