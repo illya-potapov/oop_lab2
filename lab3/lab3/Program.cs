@@ -13,12 +13,25 @@ namespace lab3
         public int cardNumber;
         public int cardBalance;
         public int change;
+        int age = 34;
 
         static readonly string Message = "You can only read me or edit in constructor";
         static Customer()
         {
             Console.WriteLine("This is static constructor");
             Console.WriteLine(Message);
+        }
+
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                age = value;
+            }
         }
 
         public Customer() //конструктор
