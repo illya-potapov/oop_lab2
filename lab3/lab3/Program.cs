@@ -87,9 +87,7 @@ namespace lab3
     {
         static void Main(string[] args)
         {
-            int Size;
-            Console.WriteLine("Введите размер массива классов Customer: ");
-            Size = Convert.ToInt32(Console.ReadLine());
+            int Size = 3;
             Customer[] customers = new Customer[Size];
 
             //Простой конструктор (без параметров)
